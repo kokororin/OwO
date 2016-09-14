@@ -5,6 +5,10 @@
   .OwO-logo {
       display: none!important;
   }
+
+  .OwO-bar{
+    height:auto!important;
+  }
   
   .success {
       text-align: center;

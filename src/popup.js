@@ -32,7 +32,7 @@ window.onload = function() {
           document.querySelector('.OwO').style.display = 'none';
           copyTextToClipboard(this.innerHTML);
           document.querySelector('.success').style.display = 'block';
-          setTimeout(window.close, 800);
+          setTimeout(window.close, 1000);
         });
       }
     }

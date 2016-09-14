@@ -15,7 +15,6 @@
     "manifest_version": 2,
     "name": "OwO",
     "version": "1.0",
-    "description": "111",
-    "permissions": [
-    ]
+    "description": "顔文字を簡単に使える便利なツールです。",
+    "permissions": []
 }
