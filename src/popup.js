@@ -20,7 +20,6 @@ window.onload = function() {
     body.removeChild(copyFrom);
   };
 
-
   var initTimer = setInterval(function() {
     var btn = document.querySelector('.OwO-logo');
     if (null != btn) {
@@ -30,7 +29,7 @@ window.onload = function() {
       for (var i = 0; i < items.length; i++) {
         items[i].addEventListener('click', function(event) {
           document.querySelector('.OwO').style.display = 'none';
-          copyTextToClipboard(this.innerHTML);
+          copyTextToClipboard(this.innerText);
           document.querySelector('.success').style.display = 'block';
           setTimeout(window.close, 1000);
         });
