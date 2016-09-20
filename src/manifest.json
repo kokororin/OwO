@@ -13,8 +13,9 @@
         }
     },
     "manifest_version": 2,
-    "name": "OwO",
+    "name": "__MSG_appName__",
     "version": "1.2",
-    "description": "顔文字を簡単に使える便利なツールです。",
-    "permissions": []
+    "description": "__MSG_description__",
+    "permissions": [],
+    "default_locale": "ja"
 }

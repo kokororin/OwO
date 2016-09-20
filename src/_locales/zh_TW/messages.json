@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "OwO"
+  },
+  "description": {
+    "message": "簡單地使用顏文字。"
+  },
+  "afterCopy": {
+    "message": "顏文字已經復制到剪貼板，使用 ctrl + [v] 粘貼。"
+  }
+}

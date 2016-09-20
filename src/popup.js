@@ -10,6 +10,8 @@ window.onload = function() {
     maxHeight: '250px'
   });
 
+  document.querySelector('.success h2').innerHTML = chrome.i18n.getMessage('afterCopy');
+
   var copyTextToClipboard = function(text) {
     var copyFrom = document.createElement('textarea');
     copyFrom.textContent = text;
