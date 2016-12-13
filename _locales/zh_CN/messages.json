@@ -1,17 +1,11 @@
 {
   "appName": {
-    "message": "Pixiv Ranking New Tab"
+    "message": "OwO"
   },
   "description": {
-    "message": "在新标签页上显示Pixiv每日排名。"
+    "message": "简单地使用颜文字。"
   },
-  "history": {
-    "message": "历史记录"
-  },
-  "bookmarks": {
-    "message": "书签"
-  },
-  "apps": {
-    "message": "应用"
+  "afterCopy": {
+    "message": "颜文字已经复制到剪贴板，使用 ctrl + [v] 粘贴。"
   }
 }

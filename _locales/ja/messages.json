@@ -1,17 +1,11 @@
 {
   "appName": {
-    "message": "Pixiv Ranking New Tab"
+    "message": "OwO"
   },
   "description": {
-    "message": "新しいタブページでPixivの毎日のランキングを表示します。"
+    "message": "顔文字を簡単に使える便利なツールです。"
   },
-  "history": {
-    "message": "閲覧履歴"
-  },
-  "bookmarks": {
-    "message": "ブックマーク"
-  },
-  "apps": {
-    "message": "アプリ"
+  "afterCopy": {
+    "message": "コピーされました。ctrl + [v] で好きなところにペーストできます。"
   }
 }

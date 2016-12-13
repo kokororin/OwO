@@ -1,17 +1,11 @@
 {
   "appName": {
-    "message": "Pixiv Ranking New Tab"
+    "message": "OwO"
   },
   "description": {
-    "message": "Show Pixiv daily rankings on your new tab page."
+    "message": "Easy to use kaomoji."
   },
-  "history": {
-    "message": "History"
-  },
-  "bookmarks": {
-    "message": "Bookmarks"
-  },
-  "apps": {
-    "message": "Apps"
+  "afterCopy": {
+    "message": "Kaomoji has been copied to the clipboard, use ctrl + [v] to paste."
   }
 }
