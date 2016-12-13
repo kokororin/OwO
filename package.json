@@ -1,0 +1,22 @@
+{
+  "name": "chrome-owo",
+  "version": "1.2.0",
+  "description": "顔文字を簡単に使える便利なツールです",
+  "main": "OwO.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kokororin/OwO.git"
+  },
+  "keywords": [
+    "chrome", "kaomoji"
+  ],
+  "author": "kokororin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kokororin/OwO/issues"
+  },
+  "homepage": "https://github.com/kokororin/OwO#readme"
+}
