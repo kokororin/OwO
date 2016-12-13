@@ -5,9 +5,13 @@
   .OwO-logo {
       display: none!important;
   }
-
-  .OwO-bar{
-    height:auto!important;
+  
+  .OwO-bar {
+      height: auto!important;
+  }
+  
+  ul.OwO-items {
+      min-height: 250px;
   }
   
   .success {

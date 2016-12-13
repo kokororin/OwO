@@ -28,12 +28,25 @@ window.onload = function() {
       clearInterval(initTimer);
       btn.click();
       var items = document.querySelectorAll('.OwO-item');
+      var bars = document.querySelectorAll('.OwO-packages li');
+      var barIndex = localStorage.getItem('bar_index');
+      if (barIndex != null) {
+        try {
+          bars[barIndex].click();
+        } catch ( e ) {}
+      }
       for (var i = 0; i < items.length; i++) {
         items[i].addEventListener('click', function(event) {
           document.querySelector('.OwO').style.display = 'none';
           copyTextToClipboard(this.innerText);
           document.querySelector('.success').style.display = 'block';
           setTimeout(window.close, 1000);
+        });
+      }
+      for (var i = 0; i < bars.length; i++) {
+        bars[i].dataset.index = i;
+        bars[i].addEventListener('click', function(event) {
+          localStorage.setItem('bar_index', this.dataset.index);
         });
       }
     }
