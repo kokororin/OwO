@@ -1,5 +1,4 @@
 window.onload = function() {
-
   new OwO({
     logo: 'OωO',
     container: document.querySelector('.OwO'),
@@ -10,7 +9,12 @@ window.onload = function() {
     maxHeight: '250px'
   });
 
-  document.querySelector('.success h2').innerHTML = chrome.i18n.getMessage('afterCopy');
+  document.querySelector('.help').innerHTML =
+    chrome.i18n.getMessage('help') + ' ( ≧Д≦)';
+
+  document.querySelector('.success h2').innerHTML = chrome.i18n.getMessage(
+    'afterCopy'
+  );
 
   var copyTextToClipboard = function(text) {
     var copyFrom = document.createElement('textarea');
@@ -33,11 +37,12 @@ window.onload = function() {
       if (barIndex != null) {
         try {
           bars[barIndex].click();
-        } catch ( e ) {}
+        } catch (e) {}
       }
       for (var i = 0; i < items.length; i++) {
         items[i].addEventListener('click', function(event) {
           document.querySelector('.OwO').style.display = 'none';
+          document.querySelector('.help').style.display = 'none';
           copyTextToClipboard(this.innerText);
           document.querySelector('.success').style.display = 'block';
           setTimeout(window.close, 1000);
@@ -50,6 +55,5 @@ window.onload = function() {
         });
       }
     }
-
   }, 10);
 };

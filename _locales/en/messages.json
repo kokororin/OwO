@@ -5,6 +5,9 @@
   "description": {
     "message": "Easy to use kaomoji."
   },
+  "help": {
+    "message": "Click on kaomoji to copy them to pasteboard."
+  },
   "afterCopy": {
     "message": "Kaomoji has been copied to the clipboard, use ctrl + [v] to paste."
   }

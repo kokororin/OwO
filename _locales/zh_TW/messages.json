@@ -5,6 +5,9 @@
   "description": {
     "message": "簡單地使用顏文字。"
   },
+  "help": {
+    "message": "點擊顏文字後將復製到剪貼板。"
+  },
   "afterCopy": {
     "message": "顏文字已經復制到剪貼板，使用 ctrl + [v] 粘貼。"
   }

@@ -1,28 +1,32 @@
-  body {
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
-  
-  .OwO-logo {
-      display: none!important;
-  }
-  
-  .OwO-bar {
-      height: auto!important;
-  }
-  
-  ul.OwO-items {
-      min-height: 250px;
-  }
-  
-  .success {
-      text-align: center;
-  }
-  
-  .success h1 {
-      font-size: 60px;
-  }
-  
-  .success h2 {
-      font-size: 24px;
-      color: #555;
-  }
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.OwO-logo {
+  display: none !important;
+}
+
+.OwO-bar {
+  height: auto !important;
+}
+
+ul.OwO-items {
+  min-height: 250px;
+}
+
+.OwO .OwO-body {
+  top: 10px;
+}
+
+.success {
+  text-align: center;
+}
+
+.success h1 {
+  font-size: 60px;
+}
+
+.success h2 {
+  font-size: 24px;
+  color: #555;
+}
